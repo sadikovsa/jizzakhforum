@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Gerbera';
+    src: local('Gerbera Regular'), local('Gerbera-Regular'),
+        url('Gerbera.woff2') format('woff2'),
+        url('Gerbera.woff') format('woff'),
+        url('Gerbera.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+	font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Gerbera';
+    src: local('Gerbera Medium'), local('Gerbera-Medium'),
+        url('Gerbera-Medium.woff2') format('woff2'),
+        url('Gerbera-Medium.woff') format('woff'),
+        url('Gerbera-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+	font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Gerbera';
+    src: local('Gerbera Bold'), local('Gerbera-Bold'),
+        url('Gerbera-Bold.woff2') format('woff2'),
+        url('Gerbera-Bold.woff') format('woff'),
+        url('Gerbera-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+	font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Gerbera';
+    src: local('Gerbera Black'), local('Gerbera-Black'),
+        url('Gerbera-Black.woff2') format('woff2'),
+        url('Gerbera-Black.woff') format('woff'),
+        url('Gerbera-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+	font-display: swap;
+  }
