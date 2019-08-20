@@ -1,29 +1,23 @@
 $(function () {
 
 	// sliders
-	$('.owl-carousel.shops-experts__slider').owlCarousel({
-		loop: false,
+	$('.clients-wrapper').owlCarousel({
+		loop: true,
 		margin: 0,
 		nav: true,
 		navText: ['<span class="icon-prev"></span>', '<span class="icon-next"></span>'],
 		dots: false,
-		items: 7,
+		items: 4,
 		slideBy: 1,
 		smartSpeed: 1000,
 		autoplaySpeed: 1000,
 		responsive: {
 			300: {
-				items: 1,
+				items: 2,
 			},
 			768: {
-				items: 3
+				items: 4
 			},
-			1024: {
-				items: 5
-			},
-			1200: {
-				items: 7
-			}
 		}
 	});
 
