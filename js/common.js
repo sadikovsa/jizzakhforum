@@ -13,10 +13,16 @@ $(function () {
 		autoplaySpeed: 1000,
 		responsive: {
 			300: {
-				items: 2,
+				items: 1,
 			},
 			768: {
 				items: 4
+			},
+			1024: {
+				items: 5
+			},
+			1200: {
+				items: 6
 			},
 		}
 	});
@@ -27,7 +33,7 @@ $(function () {
 	$(".date-to").mask("99.99.9999");
 
 	// mobile menu
-	if ($(window).width() < 1200) {
+	if ($(window).width() < 768) {
 		// Mobile Menu
 		var burger = $('#burgerBtn');
 		var mobileMenuBlock = $('.header-nav');
@@ -38,7 +44,7 @@ $(function () {
 
 		$(document).on('click', function (e) {
 			var target = e.target;
-			if (!target.closest('.btn-transparent') && !target.closest('.header-cart') && !target.closest('.burger') && !$(target).closest(".header-nav").length) {
+			if (!target.closest('.burger') && !$(target).closest(".header-nav").length) {
 				burger.prop('checked', false);
 				mobileMenuBlock.removeClass('show');
 			}

@@ -30,15 +30,31 @@
 <body>
 	<header class="header">
 		<div class="container">
-			<nav class="header-nav">
-				<ul class="header-menu">
-					<li class="header-menu__item"><a href="#main" class="header-menu__link header-menu__link--active">Home</a></li>
-					<li class="header-menu__item"><a href="#about" class="header-menu__link">About</a></li>
-					<li class="header-menu__item"><a href="#clients" class="header-menu__link">Clients</a></li>
-					<li class="header-menu__item"><a href="#portfolio" class="header-menu__link">Portfolio</a></li>
-					<li class="header-menu__item"><a href="#blog" class="header-menu__link">Blog</a></li>
-				</ul>
-			</nav>
+			<div class="header-content">
+				<a href="./" class="header-logo">
+					<img src="img/logo.png" alt="logo">
+				</a>
+				<nav class="header-nav">
+					<ul class="header-menu">
+						<li class="header-menu__item"><a href="#main" class="header-menu__link header-menu__link--active">Home</a></li>
+						<li class="header-menu__item"><a href="#about" class="header-menu__link">About</a></li>
+						<li class="header-menu__item"><a href="#clients" class="header-menu__link">Clients</a></li>
+						<li class="header-menu__item"><a href="#portfolio" class="header-menu__link">Portfolio</a></li>
+						<li class="header-menu__item"><a href="#blog" class="header-menu__link">Blog</a></li>
+					</ul>
+				</nav>
+				<div class="burger d-block d-lg-none">
+					<input type="checkbox" id="burgerBtn" class="burger-checkbox d-none">
+					<label for="burgerBtn">
+						<p class="hamburger">
+							<span class="bar bar1"></span>
+							<span class="bar bar2"></span>
+							<span class="bar bar3"></span>
+							<span class="bar bar4"></span>
+						</p>
+					</label>
+				</div>
+			</div>
 		</div>
 	</header>
 	<main class="main">
